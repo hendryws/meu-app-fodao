@@ -1,0 +1,12 @@
+<app-layout class="cadastro-component">
+
+<h1>Cadastro</h1>
+
+<form class="form-cadastro" #cardform="ngform" (ngSubmit)="cadastrar(cadform)">
+
+<label for="nome">nome</label>
+<input type="text" name="nome" id="nome" [(ngModel)]="candidato.nome">
+
+</form>
+
+</app-layout>
